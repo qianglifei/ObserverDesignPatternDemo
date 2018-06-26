@@ -34,7 +34,7 @@ public class SecondActivity extends AppCompatActivity implements ObserverListene
             }
         });
         //观察者加入列表
-        ObserverManager.getInstance().add(this);
+        ObserverManager.getInstance();
     }
 
     @Override
